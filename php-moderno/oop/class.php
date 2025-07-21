@@ -2,7 +2,7 @@
 
 declare(strict_types=1);// strict types declaration
 $sale= new Sale("2023-10-01");
-$onlineSale = new OnlineSale("2023-10-02","tarjeta");
+// $onlineSale = new OnlineSale("2023-10-02","tarjeta");
 // echo $onlineSale->createInvoice();
 $concept = new Concept("cerveza", 10.2);
 $sale->addConcept($concept);
@@ -82,21 +82,21 @@ class Sale{
 }
 
 
-class OnlineSale extends Sale {
+// class OnlineSale extends Sale {
 
-    public $paymentMethod;
+//     public $paymentMethod;
 
-    public function __construct(string|double $date,
-    string $paymentMethod ){
+//     public function __construct(string|double $date,
+//     string $paymentMethod ){
         
-        parent::__construct($date);
-        $this->paymentMethod = $paymentMethod;
-    }
+//         parent::__construct($date);
+//         $this->paymentMethod = $paymentMethod;
+//     }
 
-    public function showInfo():string {
-        return "Total: {$this->total}, Date: {$this->date}, Payment Method: {$this->paymentMethod}";
-    }
-}
+//     public function showInfo():string {
+//         return "Total: {$this->total}, Date: {$this->date}, Payment Method: {$this->paymentMethod}";
+//     }
+// }
 
 
 class Concept {
