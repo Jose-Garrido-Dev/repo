@@ -15,5 +15,5 @@ if($age >= 18){
 } elseif($age < 12 || $age > 65){ 
     echo "Menor de idade";
 }else{
-
+    echo "Idade entre 12 e 65 anos";
 }

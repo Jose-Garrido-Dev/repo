@@ -15,7 +15,7 @@ hi("benjamin Garrido\n"."<br>");
 echo summ(10,20);
 
 //le pasamos el tipado a lo que recibe y devuelve la funcion
-function summ(int $a,int $b){
+function summ(int $a,int $b): int{
     $result=$a+$b;
     return $result;
 }
