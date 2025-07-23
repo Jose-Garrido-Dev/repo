@@ -1,0 +1,8 @@
+error: Un error ocurrió - 2025-07-23 16:51:46
+log: El usuario ha hecho lo siguiente - 2025-07-23 16:51:46
+error: Un error ocurrió - 2025-07-23 16:52:08
+log: El usuario ha hecho lo siguiente - 2025-07-23 16:52:08
+error: Un error ocurrió - 2025-07-23 16:53:00
+log: El usuario ha hecho lo siguiente - 2025-07-23 16:53:00
+error: Un error ocurrió - 2025-07-23 17:08:23
+log: El usuario ha hecho lo siguiente - 2025-07-23 17:08:23
