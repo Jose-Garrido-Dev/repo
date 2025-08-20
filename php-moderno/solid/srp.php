@@ -26,9 +26,7 @@ class Order
         echo "Se procesa el pedido <br>" ;
     }
 
-
 }
-
 
 class EmailNotifier{
     public function send(Order $order){
@@ -43,3 +41,5 @@ $order->createOrder();
 
 $emaiilNotifier = new EmailNotifier();
 $emaiilNotifier->send($order);
+
+
